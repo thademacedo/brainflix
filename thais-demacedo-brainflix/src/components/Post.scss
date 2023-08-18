@@ -1,0 +1,41 @@
+.post-box__date,
+.post-box__views,
+.post-box__likes {
+  color: #afafaf;
+}
+
+.post-box__2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-box__views,
+.post-box__likes {
+  display: flex;
+}
+
+.post-box__icon {
+  padding-right: 0.5rem;
+}
+
+.post-box__info1,
+.post-box__info2 {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+  }
+  @media (min-width: 1024px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.post-box__author,
+.post-box__views {
+  @media (min-width: 768px) {
+    padding-right: 1rem;
+  }
+  @media (min-width: 1024px) {
+    padding-right: 1rem;
+  }
+}

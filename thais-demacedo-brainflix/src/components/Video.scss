@@ -1,0 +1,12 @@
+.video-size {
+  width: 24.625rem;
+  height: 15.625rem;
+  @media (min-width: 768px) {
+    width: 45.625rem;
+    height: 28.125rem;
+  }
+  @media (min-width: 1024px) {
+    width: 62.5rem;
+    height: 40.625rem;
+  }
+}
