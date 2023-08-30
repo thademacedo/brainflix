@@ -50,4 +50,10 @@
     width: 570px;
     padding-right: 1rem;
   }
+  @media (min-width: 1400px) {
+    display: flex;
+    flex-direction: column;
+    width: 970px;
+    padding-right: 1rem;
+  }
 }
