@@ -5,13 +5,16 @@ import Logo from "../assets/Logo/BrainFlix-logo.svg";
 import ProfilePic from "../assets/Images/Mohan-muruge.jpg";
 import UploadButton from "./UploadButton";
 import Avatar from "./Avatar";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="navigation-bar">
       <div className="navigation-bar__box1">
         <div className="navigation-bar__logo">
-          <img src={Logo}></img>
+          <Link to="/">
+            <img src={Logo}></img>
+          </Link>
         </div>
       </div>
       <div className="navigation-bar__box2">
