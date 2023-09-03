@@ -1,24 +1,24 @@
 import "../components/PostedComments.scss";
 import "../components/Global.scss";
-import comments from "../assets/Data/video-details.json";
 import Avatar from "./Avatar";
 
 function PostedComments({ currentVideo }) {
-  console.log(comments);
+  console.log(currentVideo);
+  console.log("hello world", currentVideo.comments);
 
   return (
     <section>
-      {currentVideo.comments.map((comments) => (
+      {currentVideo.comments.map((comment) => (
         <div className="posted-comments">
           <div className="posted-comments__pic">
             <Avatar />
           </div>
           <div>
             <div className="posted-comments__name">
-              <span>{comments.name}</span>
+              <span>{comment.name}</span>
             </div>
             <div className="posted-comments__content">
-              <span>{comments.comment}</span>
+              <span>{comment.comment}</span>
             </div>
           </div>
         </div>

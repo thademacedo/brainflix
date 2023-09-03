@@ -2,6 +2,7 @@ import "../components/Global.scss";
 import "./UploadPage.scss";
 import ThumbnailVideo from "../assets/Images/Upload-video-preview.jpg";
 import PublishButton from "../components/PublishButton";
+import CancelButton from "../components/CancelButton";
 
 function UploadPage() {
   return (
@@ -26,7 +27,7 @@ function UploadPage() {
                 Add a title to your video
               </textarea>
             </div>
-            <div>
+            <div className="upload-video__description">
               <h5>ADD A VIDEO DESCRIPTION</h5>
               <textarea
                 id="uploadText"
@@ -40,7 +41,9 @@ function UploadPage() {
             <div>
               <PublishButton />
             </div>
-            <div>CANCEL BUTTON</div>
+            <div>
+              <CancelButton />
+            </div>
           </div>
         </form>
       </div>

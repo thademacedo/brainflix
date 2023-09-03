@@ -3,8 +3,24 @@ import "../components/Global.scss";
 import Avatar from "./Avatar";
 import CommentButton from "./CommentButton";
 import PostedComments from "./PostedComments";
-
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 function Comments({ currentVideo }) {
+  // const [currentVideo, setCurrentVideo] = useState({});
+
+  // useEffect(() => {
+  //   console.log("Hello id::", id);
+  //   if (id) {
+  //     axios
+  //       .get(
+  //         `https://project-2-api.herokuapp.com/videos/${id}?api_key=ea8bcd35-b5f4-403e-8d42-30acc12ab969`
+  //       )
+  //       .then((res) => {
+  //         setCurrentVideo(res.data);
+  //       });
+  //   }
+  // }, []);
+
   return (
     <section className="comments">
       <div className="comments-box1">
