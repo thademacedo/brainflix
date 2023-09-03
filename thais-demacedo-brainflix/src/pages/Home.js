@@ -6,6 +6,7 @@ import Comments from "../components/Comments";
 import Gallery from "../components/Gallery";
 import data from "../assets/Data/video-details.json";
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 function Home() {
   const [currentVideo, setCurrentVideo] = useState(data[0]);
