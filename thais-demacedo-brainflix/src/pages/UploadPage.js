@@ -23,9 +23,12 @@ function UploadPage() {
           <div className="upload-video__field">
             <div>
               <h5>TITLE YOUR VIDEO</h5>
-              <textarea id="uploadText" className="upload-video__text-title">
-                Add a title to your video
-              </textarea>
+              <input
+                type="text"
+                id="uploadText"
+                className="upload-video__text-title"
+                placeholder="Add a title to your video"
+              />
             </div>
             <div className="upload-video__description">
               <h5>ADD A VIDEO DESCRIPTION</h5>
