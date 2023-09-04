@@ -25,7 +25,7 @@ function Comments({ currentVideo }) {
     <section className="comments">
       <div className="comments-box1">
         <p>
-          <strong>3 Comments</strong>
+          <strong>Comments</strong>
         </p>
       </div>
 
