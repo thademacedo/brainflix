@@ -1,0 +1,24 @@
+.gallery-video {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.gallery-video__info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0.5rem;
+  font-size: 0.62rem;
+}
+
+.gallery-video__title {
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 0.5rem;
+}
+
+.gallery-title {
+  color: #afafaf;
+}

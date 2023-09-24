@@ -1,0 +1,9 @@
+$primary-font: "brainflix-primary-font";
+@font-face {
+  font-family: $primary-font;
+  src: url("../assets/Font/AvenirNextLTPro-Regular.otf") format("truetype");
+}
+
+body {
+  padding: 1rem;
+}
