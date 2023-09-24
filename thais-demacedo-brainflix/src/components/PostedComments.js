@@ -1,15 +1,12 @@
-import "../components/PostedComments.scss";
-import "../components/Global.scss";
-import Avatar from "./Avatar";
+import '../components/PostedComments.scss';
+import '../components/Global.scss';
+import Avatar from './Avatar';
 
 function PostedComments({ currentVideo }) {
-  console.log(currentVideo);
-  console.log("hello world", currentVideo.comments);
-
   return (
     <section>
-      {currentVideo.comments.map((comment) => (
-        <div className="posted-comments">
+      {currentVideo.comments.map((comment, idx) => (
+        <div className="posted-comments" key={idx}>
           <div className="posted-comments__pic">
             <Avatar />
           </div>

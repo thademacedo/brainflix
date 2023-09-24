@@ -1,7 +1,7 @@
 import "../components/Video.scss";
 
 function Video({ currentVideo }) {
-  console.log("in video", currentVideo);
+  // console.log("in video", currentVideo);
   return (
     <div className="video-hero">
       <video

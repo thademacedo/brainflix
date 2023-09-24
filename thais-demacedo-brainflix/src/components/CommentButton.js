@@ -1,13 +1,17 @@
-import "../components/Button.scss";
-import "../components/Global.scss";
-import AddComment from "../assets/Icons/add_comment.svg";
+import '../components/Button.scss';
+import '../components/Global.scss';
+import AddComment from '../assets/Icons/add_comment.svg';
 
 function CommentButton() {
   return (
     <div className="navigation-bar__box3">
       <button className="navigation-bar__button">
         <div className="navigation-bar__button-emoji">
-          <img className="navigation-bar__button-icon" src={AddComment} />
+          <img
+            className="navigation-bar__button-icon"
+            src={AddComment}
+            alt="plusIcon svg"
+          />
         </div>
         <div className="navigation-bar__button-text">COMMENT</div>
       </button>

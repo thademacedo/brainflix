@@ -1,10 +1,8 @@
-import "../components/Comments.scss";
-import "../components/Global.scss";
-import Avatar from "./Avatar";
-import CommentButton from "./CommentButton";
-import PostedComments from "./PostedComments";
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import '../components/Comments.scss';
+import '../components/Global.scss';
+import Avatar from './Avatar';
+import CommentButton from './CommentButton';
+import PostedComments from './PostedComments';
 function Comments({ currentVideo }) {
   // const [currentVideo, setCurrentVideo] = useState({});
 
@@ -42,9 +40,11 @@ function Comments({ currentVideo }) {
           <div className="comments-box2__post-field">
             <form id="commentsForm" className="comments-box2__form">
               <div className="comments-box2__field">
-                <textarea id="commentsText" className="comments-box2__text">
-                  Add a new comment
-                </textarea>
+                <textarea
+                  id="commentsText"
+                  className="comments-box2__text"
+                  placeholder=" Add a new comment"
+                ></textarea>
               </div>
               <div className="comments-box2__button">
                 <CommentButton />

@@ -1,7 +1,7 @@
-import "../components/Button.scss";
-import "../components/Global.scss";
-import ArrowUp from "../assets/Icons/upload.svg";
-import { Link } from "react-router-dom";
+import '../components/Button.scss';
+import '../components/Global.scss';
+import ArrowUp from '../assets/Icons/upload.svg';
+import { Link } from 'react-router-dom';
 
 function UploadButton() {
   return (
@@ -9,7 +9,11 @@ function UploadButton() {
       <Link to="/UploadPage">
         <button className="navigation-bar__button">
           <div className="navigation-bar__button-emoji">
-            <img className="navigation-bar__button-icon" src={ArrowUp} />
+            <img
+              className="navigation-bar__button-icon"
+              src={ArrowUp}
+              alt="arrow up"
+            />
           </div>
           <div className="navigation-bar__button-text">UPLOAD</div>
         </button>

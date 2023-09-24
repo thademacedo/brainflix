@@ -1,11 +1,9 @@
-import "../components/Header.scss";
-import "../components/Global.scss";
-import TextField from "react";
-import Logo from "../assets/Logo/BrainFlix-logo.svg";
-import ProfilePic from "../assets/Images/Mohan-muruge.jpg";
-import UploadButton from "./UploadButton";
-import Avatar from "./Avatar";
-import { Link } from "react-router-dom";
+import '../components/Header.scss';
+import '../components/Global.scss';
+import Logo from '../assets/Logo/BrainFlix-logo.svg';
+import UploadButton from './UploadButton';
+import Avatar from './Avatar';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -13,7 +11,7 @@ function Header() {
       <div className="navigation-bar__box1">
         <div className="navigation-bar__logo">
           <Link to="/">
-            <img src={Logo}></img>
+            <img src={Logo} alt="brainflix logo"></img>
           </Link>
         </div>
       </div>

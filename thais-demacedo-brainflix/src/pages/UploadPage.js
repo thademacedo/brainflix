@@ -1,8 +1,8 @@
-import "../components/Global.scss";
-import "./UploadPage.scss";
-import ThumbnailVideo from "../assets/Images/Upload-video-preview.jpg";
-import PublishButton from "../components/PublishButton";
-import CancelButton from "../components/CancelButton";
+import '../components/Global.scss';
+import './UploadPage.scss';
+import ThumbnailVideo from '../assets/Images/Upload-video-preview.jpg';
+import PublishButton from '../components/PublishButton';
+import CancelButton from '../components/CancelButton';
 
 function UploadPage() {
   return (
@@ -16,6 +16,7 @@ function UploadPage() {
           className="upload-video__img"
           src={ThumbnailVideo}
           placeholder="placeholder-video"
+          alt="biking"
         ></img>
       </div>
       <div className="upload-video__form">
@@ -35,9 +36,8 @@ function UploadPage() {
               <textarea
                 id="uploadText"
                 className="upload-video__text-description"
-              >
-                Add a description to your video
-              </textarea>
+                placeholder="Add a description to your video"
+              ></textarea>
             </div>
           </div>
           <div className="upload-video__buttons">

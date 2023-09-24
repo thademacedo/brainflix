@@ -1,6 +1,6 @@
-import "../components/Avatar.scss";
-import "../components/Global.scss";
-import ProfilePic from "../assets/Images/Mohan-muruge.jpg";
+import '../components/Avatar.scss';
+import '../components/Global.scss';
+import ProfilePic from '../assets/Images/Mohan-muruge.jpg';
 
 function Avatar() {
   return (
@@ -9,6 +9,7 @@ function Avatar() {
         className="navigation-bar__profile"
         src={ProfilePic}
         placeholder="placeholder-avatar"
+        alt="peopleImage"
       ></img>
       {/* <div className="placeholder-avatar"></div> */}
     </div>
